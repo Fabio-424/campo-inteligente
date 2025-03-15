@@ -1,0 +1,38 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .logo2 img {
+        position: static;
+        width: 300px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero-content {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 18px;
+    }
+
+    .social-icons {
+        right: 10px;
+    }
+}

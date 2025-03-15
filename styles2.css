@@ -1,0 +1,160 @@
+
+body {
+    background-color: #0d1b0f; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: black;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav .active {
+    font-weight: bold;
+    color: #00ff88; 
+}
+
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: #14261a; 
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.texto {
+    width: 50%;
+}
+
+.imagem img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+.blocos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+   
+}
+
+.bloco {
+    background: #4CAF5099; 
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+
+.bloco img {
+    width: 50px;
+    margin-bottom:10px;
+}
+
+
+.equipe {
+    text-align: center;
+    padding: 40px;
+}
+
+.membros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.membro {
+    background: #14261a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 220px;
+}
+
+.membro img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+footer {
+    background-color: #808080; /* Cor de fundo semelhante ao print */
+    color: #004d00; /* Cor do texto verde escuro */
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-links ul,
+.footer-juridico ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-juridico ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a,
+.footer-juridico ul li a,
+.footer-email a {
+    color: #004d00;
+    text-decoration: none;
+}
+
+.footer-social a img {
+    height: 25px;
+    margin: 0 10px;
+}
+
+.footer-copy {
+    margin-top: 15px;
+    font-size: 14px;
+}
+

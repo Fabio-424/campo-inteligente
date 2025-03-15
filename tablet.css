@@ -1,0 +1,47 @@
+@media (min-width: 601px) and (max-width: 1024){
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.intro{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.texto{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.imagem img{
+    width: 80%;
+    max-width: 400px;
+}
+
+.bloco{
+    width: 75%;
+}
+
+
+
+
+.membros{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.membro{
+    width: 45%;
+    max-width: 250px;
+}
+}
